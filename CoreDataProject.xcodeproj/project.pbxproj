@@ -18,6 +18,10 @@
 		D8AB5D1E2A8B08FC0033AB36 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D1C2A8B08FC0033AB36 /* Singer+CoreDataClass.swift */; };
 		D8AB5D1F2A8B08FC0033AB36 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D1D2A8B08FC0033AB36 /* Singer+CoreDataProperties.swift */; };
 		D8AB5D212A8B09DD0033AB36 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D202A8B09DD0033AB36 /* FilteredList.swift */; };
+		D8AB5D262A8B0FC40033AB36 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D222A8B0FC40033AB36 /* Country+CoreDataClass.swift */; };
+		D8AB5D272A8B0FC40033AB36 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D232A8B0FC40033AB36 /* Country+CoreDataProperties.swift */; };
+		D8AB5D282A8B0FC40033AB36 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D242A8B0FC40033AB36 /* Candy+CoreDataClass.swift */; };
+		D8AB5D292A8B0FC40033AB36 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB5D252A8B0FC40033AB36 /* Candy+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		D8AB5D1C2A8B08FC0033AB36 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		D8AB5D1D2A8B08FC0033AB36 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		D8AB5D202A8B09DD0033AB36 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		D8AB5D222A8B0FC40033AB36 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D8AB5D232A8B0FC40033AB36 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D8AB5D242A8B0FC40033AB36 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D8AB5D252A8B0FC40033AB36 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,10 @@
 		D8AB5D042A8966CF0033AB36 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				D8AB5D222A8B0FC40033AB36 /* Country+CoreDataClass.swift */,
+				D8AB5D232A8B0FC40033AB36 /* Country+CoreDataProperties.swift */,
+				D8AB5D242A8B0FC40033AB36 /* Candy+CoreDataClass.swift */,
+				D8AB5D252A8B0FC40033AB36 /* Candy+CoreDataProperties.swift */,
 				D8AB5D1C2A8B08FC0033AB36 /* Singer+CoreDataClass.swift */,
 				D8AB5D1D2A8B08FC0033AB36 /* Singer+CoreDataProperties.swift */,
 				D8AB5D182A896C7A0033AB36 /* Movie+CoreDataClass.swift */,
@@ -163,10 +175,14 @@
 				D8AB5D212A8B09DD0033AB36 /* FilteredList.swift in Sources */,
 				D8AB5D142A8967650033AB36 /* DataController.swift in Sources */,
 				D8AB5D172A8967AA0033AB36 /* CoreDataProject.xcdatamodeld in Sources */,
+				D8AB5D292A8B0FC40033AB36 /* Candy+CoreDataProperties.swift in Sources */,
 				D8AB5D1A2A896C7A0033AB36 /* Movie+CoreDataClass.swift in Sources */,
+				D8AB5D272A8B0FC40033AB36 /* Country+CoreDataProperties.swift in Sources */,
 				D8AB5D1F2A8B08FC0033AB36 /* Singer+CoreDataProperties.swift in Sources */,
 				D8AB5D1B2A896C7A0033AB36 /* Movie+CoreDataProperties.swift in Sources */,
+				D8AB5D262A8B0FC40033AB36 /* Country+CoreDataClass.swift in Sources */,
 				D8AB5D062A8966CF0033AB36 /* CoreDataProjectApp.swift in Sources */,
+				D8AB5D282A8B0FC40033AB36 /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
